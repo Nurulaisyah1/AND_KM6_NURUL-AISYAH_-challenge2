@@ -1,4 +1,4 @@
-package com.example.and_nurulaisyah_challnge2
+package com.foodchallenge.and_nurulaisyah_challnge2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
