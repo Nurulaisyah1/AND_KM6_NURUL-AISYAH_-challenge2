@@ -1,4 +1,4 @@
-package coding.aisyah.foodchallenge.extenstions
+package com.example.and_nurulaisyah_challnge2.extenstions
 
 import java.text.NumberFormat
 import java.util.Locale

@@ -1,10 +1,10 @@
-package coding.aisyah.foodchallenge.adapter
+package com.example.and_nurulaisyah_challnge2.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import coding.aisyah.foodchallenge.data.Category
-import coding.aisyah.foodchallenge.databinding.ListItemCategoryBinding
+import com.example.and_nurulaisyah_challnge2.data.Category
+import com.example.and_nurulaisyah_challnge2.databinding.ListItemCategoryBinding
 
 class CategoryAdapter(private val data : List<Category>) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 

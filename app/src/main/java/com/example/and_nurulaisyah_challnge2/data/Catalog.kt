@@ -1,4 +1,4 @@
-package coding.aisyah.foodchallenge.data
+package com.example.and_nurulaisyah_challnge2.data
 
 import androidx.annotation.DrawableRes
 import java.util.UUID

@@ -1,14 +1,16 @@
-package coding.aisyah.foodchallenge
+package com.example.and_nurulaisyah_challnge2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import coding.aisyah.foodchallenge.adapter.CatalogAdapter
-import coding.aisyah.foodchallenge.adapter.CategoryAdapter
-import coding.aisyah.foodchallenge.databinding.ActivityMainBinding
-import coding.aisyah.foodchallenge.utils.Utils.catalogList
-import coding.aisyah.foodchallenge.utils.Utils.categoryList
+import com.example.and_nurulaisyah_challnge2.utils.Utils.catalogList
+import com.example.and_nurulaisyah_challnge2.utils.Utils.categoryList
+import com.example.and_nurulaisyah_challnge2.adapter.CatalogAdapter
+import com.example.and_nurulaisyah_challnge2.adapter.CategoryAdapter
+
+import com.example.and_nurulaisyah_challnge2.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private var _binding : ActivityMainBinding? = null
