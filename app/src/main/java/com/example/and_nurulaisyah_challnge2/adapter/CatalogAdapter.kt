@@ -3,9 +3,9 @@ package com.example.and_nurulaisyah_challnge2.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import coding.aisyah.foodchallenge.data.Catalog
-import coding.aisyah.foodchallenge.extenstions.toIndonesianFormat
+import com.example.and_nurulaisyah_challnge2.data.Catalog
 import com.example.and_nurulaisyah_challnge2.databinding.ListItemCatalogBinding
+import com.example.and_nurulaisyah_challnge2.extenstions.toIndonesianFormat
 
 class CatalogAdapter(private val data : List<Catalog>) : RecyclerView.Adapter<CatalogAdapter.CatalogViewHolder>() {
 
