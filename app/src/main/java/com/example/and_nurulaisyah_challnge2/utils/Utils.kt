@@ -1,8 +1,8 @@
-package coding.aisyah.foodchallenge.utils
+package com.example.and_nurulaisyah_challnge2.utils
 
-import coding.aisyah.foodchallenge.R
-import coding.aisyah.foodchallenge.data.Catalog
-import coding.aisyah.foodchallenge.data.Category
+import com.example.and_nurulaisyah_challnge2.R
+import com.example.and_nurulaisyah_challnge2.data.Catalog
+import com.example.and_nurulaisyah_challnge2.data.Category
 
 object Utils {
 
