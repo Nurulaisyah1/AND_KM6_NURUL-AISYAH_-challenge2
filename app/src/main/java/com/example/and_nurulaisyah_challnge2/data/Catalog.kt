@@ -9,7 +9,8 @@ data class Catalog(
     @DrawableRes
     var img : Int,
 
+    var name : String,
+
     var price : Double,
 
-    var name : String,
-)
+    )
