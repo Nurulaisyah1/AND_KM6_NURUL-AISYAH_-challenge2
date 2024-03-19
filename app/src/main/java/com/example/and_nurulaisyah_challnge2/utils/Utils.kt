@@ -8,23 +8,23 @@ object Utils {
 
     val categoryList = listOf(
         Category(img = R.drawable.img_rice, name = "Rice"),
-        Category(img = R.drawable.img_mie, name = "Mie"),
+        Category(img = R.drawable.img_noodle, name = "Mie"),
         Category(img = R.drawable.img_drink, name = "Drink"),
         Category(img = R.drawable.img_snack, name = "Snack") ,
-        Category(img = R.drawable.img_snack, name = "Snack"),
-        Category(img = R.drawable.img_snack, name = "Snack")
+        Category(img = R.drawable.img_seafood, name = "Seafood"),
+        Category(img = R.drawable.img_bread, name = "bread")
     )
 
     val catalogList = listOf(
-        Catalog(img = R.drawable.img_drink, price = 15000.00,name = "Kentang Goreng"),
-        Catalog(img = R.drawable.img_drink,price = 20000.00,name =  "Kue Bandung"),
-        Catalog(img = R.drawable.img_snack,price =  20000.00,name =  "Martabak"),
-        Catalog(img = R.drawable.img_rice,price =  5000.00,name =  "Nasi"),
-        Catalog(img = R.drawable.img_drink,price =  3000.00,name =  "Es Teh"),
-        Catalog(img = R.drawable.img_mie,price =  10000.00,name =  "Mie Goreng"),
-        Catalog(img = R.drawable.img_drink,price =  5000.00,name =  "Onde Onde"),
-        Catalog(img = R.drawable.img_drink,price =  5000.00,name =  "Pisang Molen"),
-        Catalog(img = R.drawable.img_drink,price =  10000.00,name =  "Tahu Petis"),
-        Catalog(img = R.drawable.img_drink,price =  5000.00,name =  "Lumpia")
+        Catalog(img = R.drawable.img_frenchfries, price = 15000.00,name = "Kentang Goreng"),
+        Catalog(img = R.drawable.img_cheeseburger,price = 20000.00,name =  "burger"),
+        Catalog(img = R.drawable.img_dumplings,price =  20000.00,name =  "dumplings"),
+        Catalog(img = R.drawable.img_salmon_sushi,price =  5000.00,name =  "salmon sushi"),
+        Catalog(img = R.drawable.img_fried_chicken,price =  3000.00,name =  "chiken"),
+        Catalog(img = R.drawable.img_cappucino,price =  10000.00,name =  "cappucino"),
+        Catalog(img = R.drawable.img_coffee_latte_with_croissant,price =  5000.00,name =  "coffee latte"),
+        Catalog(img = R.drawable.img_dim_sum_dumplings,price =  5000.00,name =  "dimsum"),
+        Catalog(img = R.drawable.img_grilled_whole_chicken,price =  10000.00,name =  "chiken saus"),
+        Catalog(img = R.drawable.img_icetea,price =  5000.00,name =  "ice tea")
     )
 }
