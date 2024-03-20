@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.and_nurulaisyah_challnge2.data.Category
 import com.example.and_nurulaisyah_challnge2.databinding.ListItemCategoryBinding
 
-class CategoryAdapter(private val data : List<Category>) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
+class CategoryAdapter(
+    private val data : List<Category>,
+    private val listener : OnClick
+) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
     inner class CategoryViewHolder(val binding : ListItemCategoryBinding):RecyclerView.ViewHolder(binding.root)
 
@@ -21,7 +24,14 @@ class CategoryAdapter(private val data : List<Category>) : RecyclerView.Adapter<
             val (_,img,name) = data[position]
             ivCategoryAvatars.setImageResource(img)
             tvName.text = name
+            card.setOnClickListener {
+                listener.onDetail(data[position])
+            }
 
         }
+    }
+
+    interface OnClick{
+        fun onDetail(category : Category)
     }
 }
