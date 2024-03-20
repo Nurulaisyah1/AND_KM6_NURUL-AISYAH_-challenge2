@@ -2,4 +2,9 @@
     <string name="app_name">food</string>
     <string name="text_greeting">what do you eat today?\n</string>
     <string name="text_name">hello nurul aisyah !\n</string>
+    <string name="text_name_app">nurul \n</string>
+    <string name="txt_email">nurul@gmail.com</string>
+    <string name="txt_profile">Edit Profil</string>
+    <string name="txt_title">Home</string>
+    <string name="txt_profile_home">Profile</string>
 </resources>
